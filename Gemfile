@@ -7,7 +7,13 @@ ruby '2.6.6'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 # bycript
 gem 'bcrypt', '3.1.12'
+# faker
+gem 'faker',          '1.7.3'
+# pagenation
+gem 'will_paginate',           '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
 # bootstrap
+#gem 'bootstrap'
 gem 'bootstrap-sass', '3.3.7'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -26,7 +32,6 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'uglifier'
 gem 'jquery-rails'
-gem 'bootstrap'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
